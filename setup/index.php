@@ -1,14 +1,22 @@
 <?php
+$page = "index.php";
+$p = "";
+
+
+if(isset($_GET["page"])){
+    $p = $_GET["page"];
+}
+
+
+if($p == "" || $p == "index"){
+    $page = "index.php";
+}
+
+
+if($p == "step_1" || $p == "step_1"){
+    $page = "step_1.php";
+}
+
+
+require_once("sites/".$page);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mainactyl Setup Installation</title>
-</head>
-<body>
-    
-</body>
-</html>

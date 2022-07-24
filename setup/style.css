@@ -209,8 +209,9 @@ input[type=password] {
 .form-input:focus {
   border-color:rgb(0, 119, 255);
 }
-.disabled {
-  background-color: rgb(198, 198, 198);
-  color: black !important;
-  cursor: not-allowed;
+setup-main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+setup-container {
+    
 }
