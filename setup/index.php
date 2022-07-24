@@ -1,3 +1,14 @@
 <?php
-echo "\033[32m Request has been sent. Please wait for my reply! \033[0m";
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mainactyl Setup Installation</title>
+</head>
+<body>
+    
+</body>
+</html>
